@@ -1,0 +1,13 @@
+##The prefix of the rank shown above player's heads
+rankPrefix: '&7#'
+
+#Prefix shown in chat when running commands or sending a message to a player
+chat-prefix: '&bSAO'
+
+Mobs:
+
+Messages:
+ #Message sent when a mob is killed for points
+  #Set this to "" if you don't want a message displayed on mob killed
+  #Only variables you can use in this msg are: {MOB}, {POINTS}, {PLAYER}, {RANK}
+ MobKillMsg: "Congratulations {PLAYER}! You have killed {MOB} for {POINTS} points! You are now ranked #{RANK} on the server!"

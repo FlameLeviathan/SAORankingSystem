@@ -1,0 +1,11 @@
+name: SAORankingSystem
+main: dev.FlameKnight15.Cardinal
+version: 1.0
+depend: [MVdWPlaceholderAPI]
+Author: FlameKnight15
+
+commands:
+  cranks:
+      description: Main command for SAORankingSystem
+      usage: /cranks
+      aliases: [cardinalranks, cr]
